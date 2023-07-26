@@ -1,8 +1,9 @@
 package Homework_1.FamilyTree;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Family {
+public class Family implements Serializable{
     private ArrayList<Human> family = new ArrayList<>();
 
     

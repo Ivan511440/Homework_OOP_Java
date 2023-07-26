@@ -1,12 +1,13 @@
 package Homework_1.FamilyTree;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
 
 /**
  * Это класс Человек
  */
-public abstract class Human implements Child {
+public abstract class Human implements Serializable {
     private static int count;
     private int id=0;
     private String surname;
